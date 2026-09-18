@@ -1,0 +1,376 @@
+{
+  "date": "2026-09-18T20:45:47.174Z",
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "passed": 73,
+  "total": 73,
+  "checks": [
+    {
+      "name": "Home opens with generated art and seven chapters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "city renders without horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "city images load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "economy renders without horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "economy images load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "dungeon/1 renders without horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "dungeon/1 images load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "guild renders without horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "guild images load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "people renders without horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "people images load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "factions renders without horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "factions images load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "District selection updates map, text, and link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "District map supports keyboard activation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Central map opens in a full-size dialog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Price search finds healing potion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Price category filters travel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Price search handles no results",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Bear Hide sale settles to 63.75 gp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loot quantity recalculates to 127.50 gp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loot rejects invalid quantity \"0\"",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loot rejects invalid quantity \"-1\"",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loot rejects invalid quantity \"1.5\"",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loot rejects invalid quantity \"\"",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Loot rejects invalid quantity \"10000\"",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Floor checklist updates and saves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Floor tabs change guide and keep separate checklists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Floor tabs support arrow keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Checklist survives reload",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Checklist reset clears saved preparation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Creature details expose public tactics and known drops",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Printing expands all selected-floor creature entries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Print cleanup restores collapsed entries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Rank selector displays S-rank guidance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "NPC search distinguishes both Elaras",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "NPC search combines with role filters",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "NPC profile opens public identity and location",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Escape closes profile dialog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Global search finds cross-chapter material",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search treats special input as text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Global search opens the requested NPC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Direct floor links survive a fresh page load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unknown routes fall back to the welcome page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390px layout fits overview",
+      "passed": true,
+      "detail": "{\"width\":390,\"scroll\":390}"
+    },
+    {
+      "name": "390px layout fits city",
+      "passed": true,
+      "detail": "{\"width\":390,\"scroll\":390}"
+    },
+    {
+      "name": "390px layout fits economy",
+      "passed": true,
+      "detail": "{\"width\":390,\"scroll\":390}"
+    },
+    {
+      "name": "390px layout fits dungeon/2",
+      "passed": true,
+      "detail": "{\"width\":390,\"scroll\":390}"
+    },
+    {
+      "name": "390px layout fits guild",
+      "passed": true,
+      "detail": "{\"width\":390,\"scroll\":390}"
+    },
+    {
+      "name": "390px layout fits people",
+      "passed": true,
+      "detail": "{\"width\":390,\"scroll\":390}"
+    },
+    {
+      "name": "390px layout fits factions",
+      "passed": true,
+      "detail": "{\"width\":390,\"scroll\":390}"
+    },
+    {
+      "name": "320px layout fits overview",
+      "passed": true,
+      "detail": "{\"width\":320,\"scroll\":320}"
+    },
+    {
+      "name": "320px layout fits city",
+      "passed": true,
+      "detail": "{\"width\":320,\"scroll\":320}"
+    },
+    {
+      "name": "320px layout fits economy",
+      "passed": true,
+      "detail": "{\"width\":320,\"scroll\":320}"
+    },
+    {
+      "name": "320px layout fits dungeon/2",
+      "passed": true,
+      "detail": "{\"width\":320,\"scroll\":320}"
+    },
+    {
+      "name": "320px layout fits guild",
+      "passed": true,
+      "detail": "{\"width\":320,\"scroll\":320}"
+    },
+    {
+      "name": "320px layout fits people",
+      "passed": true,
+      "detail": "{\"width\":320,\"scroll\":320}"
+    },
+    {
+      "name": "320px layout fits factions",
+      "passed": true,
+      "detail": "{\"width\":320,\"scroll\":320}"
+    },
+    {
+      "name": "768px layout fits overview",
+      "passed": true,
+      "detail": "{\"width\":768,\"scroll\":753}"
+    },
+    {
+      "name": "768px layout fits city",
+      "passed": true,
+      "detail": "{\"width\":768,\"scroll\":753}"
+    },
+    {
+      "name": "768px layout fits economy",
+      "passed": true,
+      "detail": "{\"width\":768,\"scroll\":753}"
+    },
+    {
+      "name": "768px layout fits dungeon/2",
+      "passed": true,
+      "detail": "{\"width\":768,\"scroll\":753}"
+    },
+    {
+      "name": "768px layout fits guild",
+      "passed": true,
+      "detail": "{\"width\":768,\"scroll\":753}"
+    },
+    {
+      "name": "768px layout fits people",
+      "passed": true,
+      "detail": "{\"width\":768,\"scroll\":753}"
+    },
+    {
+      "name": "768px layout fits factions",
+      "passed": true,
+      "detail": "{\"width\":768,\"scroll\":753}"
+    },
+    {
+      "name": "Mobile menu opens with expanded state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Mobile navigation changes chapter and closes menu",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Direct-file offline opening works with local images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Search works without a web server",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No browser JavaScript or console errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No missing resources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Local server blocks access outside public folder",
+      "passed": true,
+      "detail": "403"
+    },
+    {
+      "name": "Known private identities and plot terms are absent from shipped code",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "errors": [],
+  "networkFailures": [],
+  "failure": null
+}
