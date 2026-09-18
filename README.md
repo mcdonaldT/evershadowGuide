@@ -1,6 +1,26 @@
 # Evershadow — The Adventurer’s Field Guide
 
-Open **Start Guide.cmd**, or open **site/index.html** directly in a modern browser. No installation, account, build step, or internet connection is needed.
+A static, illustrated guide with npm commands for development, production builds, preview, and Node hosting. Requires **Node.js 22 or newer** with npm; there are no third-party packages.
+
+From this project folder:
+
+```sh
+npm ci
+npm run dev
+```
+
+Open **http://localhost:4173**. To prepare a deployment:
+
+```sh
+npm run build
+npm run preview
+```
+
+The build creates **`dist/`**, ready for static hosting. Use **`npm run build`** as the host's build command and **`dist`** as its publish directory. For Node hosting, build first and run **`npm start`**; it listens on the host's `PORT` and `0.0.0.0`. See [DEPLOYMENT.md](DEPLOYMENT.md) for command details.
+
+The standalone checkout uses **`src/`** for website files; the original Obsidian copy uses **`site/`**. Tools support both layouts, preferring `src/` when present. References to `site/` below also apply to `src/` in the standalone checkout.
+
+You can still open **src/index.html**, **site/index.html**, or the built **dist/index.html** directly without a server. The original Obsidian copy's **Start Guide.cmd** also works. No account or internet connection is needed.
 
 The website includes:
 
@@ -19,7 +39,7 @@ For a table presentation, open the guide and use your browser’s full-screen mo
 
 To send the guide to players, use **Evershadow-Player-Guide.zip**. They should extract the entire archive and open `index.html`. Keep its assets and scripts together. Saved checklists belong to the current browser and device; they are not shared with other players.
 
-To put it online, upload **only the contents of `site/`** to a static website host. There are no build settings or server dependencies. Hash links such as `#dungeon/2` work without special routing. The website has not been deployed publicly.
+To put it online, run `npm run build` and upload **only the contents of `dist/`** to a static website host. Hash links such as `#dungeon/2` work without special routing, including under a URL subdirectory. Building does not publish the site. The existing ZIP is an earlier snapshot; npm builds do not update it automatically. Zip the contents of `dist/` for a fresh offline export.
 
 The zip contains only the public website. Editorial notes, source notes, QA artifacts, and development tools are outside the published folder.
 
@@ -36,20 +56,20 @@ Content is a curated snapshot of the campaign notes, not a live Obsidian export.
 
 The calculator treats both fees as deductions from the merchant’s 50% offer, rounding each to the nearest copper. This convention is stated in the interface because the notes do not specify a tax order. Final prices and settlements remain table decisions.
 
-## Optional local development
+## Development and checks
 
 With Node.js installed, run from this folder:
 
 ```powershell
-node tools/serve.cjs
+npm run dev
 ```
 
-Then visit `http://127.0.0.1:4173`. The development server serves only `site/` and binds to your own computer. You can choose another port using `EVERSHADOW_PORT`.
+Then visit `http://localhost:4173`. The server serves the source folder and binds to your own computer. Refresh after edits. Choose another port with `npm run dev -- --port 5173`. Run `npm test` to verify builds, HTTP responses, and server startup.
 
 Browser verification uses the installed Microsoft Edge in headless mode and Node.js, without downloaded dependencies:
 
 ```powershell
-node tools/browser-check.cjs
+npm run test:browser
 ```
 
 Verification output and screenshots are saved in `qa/`. The test server and browser are closed when verification ends.

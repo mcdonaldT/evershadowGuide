@@ -1,0 +1,17 @@
+{
+  "name": "evershadow-player-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The player-facing field guide to Evershadow and the Abyssal Core.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node tools/serve.cjs",
+    "build": "node tools/build.cjs",
+    "preview": "node tools/serve.cjs --dist",
+    "start": "node tools/serve.cjs --dist --host 0.0.0.0",
+    "test": "node --test tools/deployment.test.cjs",
+    "test:browser": "node tools/browser-check.cjs"
+  }
+}
